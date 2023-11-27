@@ -1,0 +1,15 @@
+.wrapper {
+  height: 5rem;
+  background-color: rgb(128, 125, 125);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  /* min-width: 425px; */
+}
+
+@media screen and (max-width: 420px) {
+  .menuBurger {
+    display: block;
+  }
+}
