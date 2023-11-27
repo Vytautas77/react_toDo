@@ -1,15 +1,17 @@
+import Link from "next/link";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import Tasks from "@/components/Tasks/Tasks";
+import Paints from "@/components/Paints/Paints";
 
-const Index = () => {
+const Main = () => {
   return (
     <>
       <Header />
-      <Tasks />
+      <div>Waiting</div>
+      <Link href="/Paints">Paints</Link>
       <Footer />
     </>
   );
 };
 
-export default Index;
+export default Main;

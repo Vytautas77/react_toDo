@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin: auto;
+  width: 220px;
+  margin-top: 1rem;
+  justify-items: center;
+}
+.paintWrapper {
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.paintWrapper img {
+  width: 200px;
+}
